@@ -1,0 +1,6 @@
+2008-12-22 15:12:34 Warning: Warning (2): mysql_connect() [<a href='http://php.net/function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'user'@'localhost' (using password: YES) in [CORE\cake\libs\model\datasources\dbo\dbo_mysql.php, line 117]
+2008-12-22 15:12:34 Warning: Warning (2): mysql_select_db(): supplied argument is not a valid MySQL-Link resource in [CORE\cake\libs\model\datasources\dbo\dbo_mysql.php, line 122]
+2008-12-22 15:12:34 Warning: Warning (2): mysql_get_server_info(): supplied argument is not a valid MySQL-Link resource in [CORE\cake\libs\model\datasources\dbo\dbo_mysql.php, line 130]
+2008-12-22 15:12:34 Warning: Warning (2): mysql_query(): supplied argument is not a valid MySQL-Link resource in [CORE\cake\libs\model\datasources\dbo\dbo_mysql.php, line 154]
+2008-12-22 15:16:18 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.master_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 521]
+2008-12-22 15:16:18 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\models\user.php, line 99]
