@@ -1,4 +1,4 @@
-@charset "utf-8";
+/*-- 全局 --*/
 *{padding:0; margin:0;}
 body{background:#fff;font-family:'lucida grande',tahoma,helvetica,arial,'bitstream vera sans',sans-serif; font-size:12px; text-align:center;}
 input,textarea{font-size:12px; padding:3px;}
@@ -82,7 +82,7 @@ a.c_ql{color:#B9C1D5; text-decoration:none; font-weight:bold;}
 .h200{height:200px;}
 .h300{height:300px;}
 
-/*-----------------------鎸夐挳杈撳叆妗嗙被 START-------------------------------*/
+/*-----------------------按钮输入框类 START-------------------------------*/
 .it_s{display:table; border:1px solid #808080;}
 .it1,.it2{background:#fff; border:1px solid #fff; color:#333;}
 .it2{border-left:1px solid #000; border-top:1px solid #000; color:#333;}
@@ -101,9 +101,9 @@ a.c_ql{color:#B9C1D5; text-decoration:none; font-weight:bold;}
 .ty_s{float:left; border:1px solid #f9a4b2;}
 .ty1,.ty2{height:25px; color:#fff; font-size:14px; background:#d32c47; border-left:1px solid #fff; border-top:1px solid #fff; border-right:1px solid #6a6a6a; border-bottom:1px solid #6a6a6a; cursor:pointer;}
 .ty2{background:#C71E3A;}
-/*-----------------------鎸夐挳杈撳叆妗嗙被 END-------------------------------*/
+/*-----------------------按钮输入框类 END-------------------------------*/
 
-/*-----------------------鐏拌壊folder START-------------------------------*/
+/*-----------------------灰色folder START-------------------------------*/
 .dl1,.dl2{height:25px; padding-top:5px; font-size:12px; color:#fff; background:#d32c47 url(http://img.kaixin001.com.cn/i/zc_ys.gif) no-repeat 15px 4px; padding-left:22px; padding-right:8px; border-left:1px solid #fff; border-top:1px solid #fff; border-right:1px solid #6a6a6a; border-bottom:1px solid #6a6a6a; cursor:pointer;}
 .dl2{background:#db415a url(http://img.kaixin001.com.cn/i/zc_ys.gif) no-repeat 15px 4px;}
 .bqd_bg{height:30px; overflow:hidden; background:url(http://img.kaixin001.com.cn/i/bqd_bg.gif) top repeat-x; margin-bottom:10px; font-size:14px;}
@@ -123,7 +123,7 @@ a.c_ql{color:#B9C1D5; text-decoration:none; font-weight:bold;}
 .bqc_of,.bqc_of_mo{background:url(http://img.kaixin001.com.cn/i/bqc_of.gif) no-repeat; cursor:pointer;}
 .bqc_of1,.bqc_of1_mo{background:url(http://img.kaixin001.com.cn/i/bqc_of1.gif) no-repeat; cursor:pointer;}
 .bqc_of_mo,.bqc_of1_mo{color:#36c; text-decoration:underline;}
-/*-----------------------鐏拌壊folder END-------------------------------*/
+/*-----------------------灰色folder END-------------------------------*/
 
 .q_sz_on,.q_sz_of,.q_sz_of_mo,.q_sz_of1,.q_sz_of1_mo,.q_sz_of2,.q_sz_of2_mo{width:118px; height:23px; padding-top:7px; overflow:hidden; text-align:center; background:url(http://img.kaixin001.com.cn/i/q_sz_on.gif) no-repeat;}
 .q_sz_of,.q_sz_of_mo{background:url(http://img.kaixin001.com.cn/i/q_sz_of.gif) no-repeat; cursor:pointer;}
@@ -135,7 +135,7 @@ a.c_ql{color:#B9C1D5; text-decoration:none; font-weight:bold;}
 .flw5{float:left; width:5px;}
 .flw20{float:left; width:20px;}
 
-/*-- 鎺掔増 --*/
+/*-- 排版 --*/
 #l{float:left; width:140px;}
 #r{margin-left:140px;}
 #l175{float:left; width:175px;}
@@ -152,7 +152,7 @@ a.c_ql{color:#B9C1D5; text-decoration:none; font-weight:bold;}
 .wl1{width:140px;}.wr1{width:860px;}
 .wl2{width:175px;}.wr2{width:825px;}
 
-/*-- 澶撮儴 --*/
+/*-- 头部 --*/
 .l1{font:bold 24px Arial; line-height:50px; text-align:center; background:#d01e3b url(http://img.kaixin001.com.cn/i/n_bg_r.gif) top repeat-x; border-bottom:5px solid #e88f9d;}
 .l2{padding-left:15px;}
 #l3{padding:15px;}
@@ -169,26 +169,26 @@ a.c_ql{color:#B9C1D5; text-decoration:none; font-weight:bold;}
 .hn_sj{float:left; margin-top:2px;}
 .hn_xx{float:left; margin-top:6px;}
 .hn_l{position:absolute; display:none; top:23px; left:-1px; width:120px; padding:1px; background:#f7f7f7; border-left:1px solid #dfdfdf; border-right:1px solid #666; border-bottom:1px solid #666;}
-a.n{font:bold 14px "瀹嬩綋"; color:#fff; text-decoration:none;}
+a.n{font:bold 14px "宋体"; color:#fff; text-decoration:none;}
 a.n:hover{color:#fff; text-decoration:underline;}
 a.sj:hover{background:#e37889; display:block;}
 a.hnm{text-decoration:none; display:block; width:105px; line-height:21px; padding-left:15px; font-family:Arial;}
 a.hnm:hover{color:#fff; text-decoration:none; background:#d01e3b; font-family:Arial;}
 .l1_h{line-height:11px; background:url(http://img.kaixin001.com.cn/i/l1_h.gif) center repeat-x;}
 
-/*-- 灏鹃儴 --*/
+/*-- 尾部 --*/
 #b{background:#fff; padding:10px 0 40px 0; text-align:center; clear:both;}
 .b1{color:#666; font-family:Arial; text-align:center;}
 .b1 span{color:#ddd; padding:0 6px;}
 
-/*-- 缈婚〉 --*/
+/*-- 翻页 --*/
 #fy_d{padding:10px 0; text-align:center;}
 .fy_p{margin:10px 0;}
 a.fy {border:1px solid #B9B7B7; text-decoration:none; padding:3px 7px; margin:1px; font-family:Arial; background:#fff; color:#8B8A8A;}
 a.fy:hover{text-decoration:underline;}
 a.fy2{border:1px solid #B9B7B7; text-decoration:none; padding:3px 7px; margin:1px; font-family:Arial; background:#8B8A8A; color:#fff; font-weight:bold;}
 
-/*-- 鍐呭 --*/
+/*-- 内容 --*/
 #r2{background:#fff; padding-right:5px;}
 #r2_1{text-align:center; border-left:1px solid #ddd; border-right:1px solid #eee; border-bottom:1px solid #eee;}
 #r2_2 {border-bottom:1px solid #bbb; background:#fff; padding:15px; height:auto !important;height:530px;min-height:530px;}
@@ -200,9 +200,9 @@ a.fy2{border:1px solid #B9B7B7; text-decoration:none; padding:3px 7px; margin:1p
 #r2l{float:left; width:535px;}
 #r2r{float:right; width:220px; padding:0 20px 50px 20px; background:#F7F7F7; border-left:1px solid #ddd;}
 #r2r1{width:220px; height:114px; overflow:hidden; background:url(http://img.kaixin001.com.cn/i/dl_rt_bg.gif) no-repeat; margin:20px 0;}
-#r2r11{margin:17px 25px; font:bold 14px "瀹嬩綋"; color:#369;}
+#r2r11{margin:17px 25px; font:bold 14px "宋体"; color:#369;}
 #r2r12{margin-left:25px;}
-#r2l1{font:bold 14px "瀹嬩綋"; border-bottom:1px solid #ddd; padding:20px 0 4px 0;}
+#r2l1{font:bold 14px "宋体"; border-bottom:1px solid #ddd; padding:20px 0 4px 0;}
 #r2l2{padding:15px;}
 #r2l21{width:380px; height:60px; overflow:hidden; background:url(http://img.kaixin001.com.cn/i/dl_ts_bg.gif) no-repeat;}
 #r2l211{font-size:14px; padding:15px 0 0 55px;}
@@ -280,7 +280,7 @@ a.fy2{border:1px solid #B9B7B7; text-decoration:none; padding:3px 7px; margin:1p
 .srr_tt4{padding-left:25px;}
 .srr_tm{text-align:right; margin:5px; margin-bottom:20px;}
 .srr_qdt{background:url(http://img.kaixin001.com.cn/i/sy_hyd.gif) top left no-repeat; padding:5px; padding-left:20px;}
-.bda{color:#3B589A; font:bold 40px "榛戜綋";}
+.bda{color:#3B589A; font:bold 40px "黑体";}
 .zj{float:left; width:85px; padding-top:10px; text-align:center;}
 .zj1{width:50px; height:50px; overflow:hidden; padding:2px; border:1px solid #ccc; background:#fff; filter:alpha(opacity=90); -moz-opacity:0.9;}
 .zj2{text-align:center;}
@@ -487,7 +487,7 @@ a.cha{text-decoration:none; color:#B9C1D5;}
 .q_cygl2{float:left; width:90px;}
 .q_cygl_fy{text-align:right; padding:10px 0;}
 .r5l{float:left; width:690px;}
-.r5l1{text-align:center; margin:15px 0; font:bold 14px "瀹嬩綋";}
+.r5l1{text-align:center; margin:15px 0; font:bold 14px "宋体";}
 .r5l2{text-align:right;}
 .r5l3{border:1px solid #DFDEE6; background:#F7F7F7; height:663px;}
 .r5r{float:right; clear:right; width:125px;}
@@ -722,7 +722,7 @@ a.wd12a{color:#999; text-decoration:none; font-family:Arial;}a.wd12a:hover{text-
 .x_fg1,.x_fg2,.x_fg3,.x_zt1,.x_zt2,.x_zt3,.x_xg1,.x_xg2,.x_xg3,.x_pf1,.x_pf2,.x_pf3{float:left; width:60px; text-align:center; padding-top:3px; margin:3px 6px 0 6px; cursor:pointer; background:#fff; border:1px solid #fff;}
 .x_fg2,.x_zt2,.x_xg2,.x_pf2{background:#fbd2d3; border:1px solid #ffa8a8;}
 .x_fg3,.x_zt3,.x_xg3,.x_pf3{background:#f8a4a7; border:1px solid #f53b3b;}
-#r21{font:bold 14px "瀹嬩綋"; border-bottom:1px solid #ddd; padding-bottom:10px;}
+#r21{font:bold 14px "宋体"; border-bottom:1px solid #ddd; padding-bottom:10px;}
 #r22{float:left; width:420px;}
 #r23{float:left; width:240px;}
 #r29{float:left; width:240px;}
@@ -752,29 +752,29 @@ a.wd12a{color:#999; text-decoration:none; font-family:Arial;}a.wd12a:hover{text-
 .wdb_of{border-bottom:3px solid #fff; border-right:2px solid #fff;}
 .wdb_on{border-bottom:3px solid #d1d1d1; border-right:2px solid #d1d1d1;}
 
-/*-- suggest鍥惧眰 --*/
+/*-- suggest图层 --*/
 .sgt_o{position:absolute; display:none; border:1px solid #98B1C8; background:#fff; padding:2px;}
 .sgt_of{width:200px; height:20px; border-bottom:1px solid #eee; padding:2px 5px; color:#666; background:#fff;}
 .sgt_on{width:200px; height:20px; border-bottom:1px solid #eee; padding:2px 5px; color:#000; background:#F2F6FB;}
 
-/*-- 鎻愮ず鍥惧眰 --*/
+/*-- 提示图层 --*/
 .tsk{border:1px solid #FFBA43; background:#FDFFCE; padding:10px;}
 .xxkarea{width:555px; border:solid 1px #e2c822; margin:0px 0 10px 25px; background:#fff9d7; padding:15px; *padding-bottom:5px;!important}
 .xxkarea p{float:left; padding:0 0 0 15px; margin:0px;}
 .tip3_below_white{float:left; width:330px; height:81px; overflow:hidden; background:url(http://img.kaixin001.com.cn/i2/tip3_below_white.gif) no-repeat; padding-top:17px; padding-left:20px;}
 
-/*-- 纭Email --*/
+/*-- 确认Email --*/
 .qrem{font-size:14px; margin:30px;}
 .qrem div{line-height:25px;}
 
-/*-- 鐧诲綍 --*/
+/*-- 登录 --*/
 .dl_h{width:1002px; height:26px; background:url(http://img.kaixin001.com.cn/i/dl_t_bg.gif) top repeat-x;}
 .dl_h_l{float:left; font:normal 19px Arial; padding-left:15px;}
 .dl_l{float:left; width:60px; text-align:right;}
 .dl_l_ts{background:url(http://img.kaixin001.com.cn/i/dl_l_ts.gif) top left no-repeat; height:35px; padding:8px 20px; margin-top:10px; overflow:hidden;}
 .dl_l_bg{background:url(http://img.kaixin001.com.cn/i/dl_l_bg.gif); padding:0 20px; font-size:14px;}
 
-/*-- Email鎺ㄩ��--*/
+/*-- Email推送 --*/
 .box{background:url(http://img.kaixin001.com.cn/i/bottom-left-w.gif) no-repeat left bottom;}
 .box-outer{background:url(http://img.kaixin001.com.cn/i/bottom-right-w.gif) no-repeat right bottom;}
 .box-inner{background:url(http://img.kaixin001.com.cn/i/top-left-w.gif) no-repeat left top;}
@@ -785,7 +785,7 @@ a.wd12a{color:#999; text-decoration:none; font-family:Arial;}a.wd12a:hover{text-
 .box-t p{background:url(http://img.kaixin001.com.cn/i/top-right-t.gif) no-repeat right top; padding-left:20px; padding-top:10px; padding-bottom:15px; padding-right:10px; line-height:2em; margin:0;}
 .box-t span{background:url(http://img.kaixin001.com.cn/i/top-right-t.gif) no-repeat right top; padding:10px 20px; display:block;}
 
-/*-- 甯愭埛绠＄悊 --*/
+/*-- 帐户管理 --*/
 .qxcg{margin:80px 0 0 160px;}
 .zh_i_of,.zh_i_on{float:left; width:300px; padding:3px; padding-left:8px; margin-bottom:5px; background:#fff;}
 .zh_i_on{background:#eee;}
@@ -800,7 +800,7 @@ a.wd12a{color:#999; text-decoration:none; font-family:Arial;}a.wd12a:hover{text-
 #sj_js div{padding-left:15px;}
 .sj_js_t{background:url(http://img.kaixin001.com.cn/i/sj_yd.gif) left no-repeat; font-weight:bold;}
 .sj_wz{text-align:center; font-size:18px; font-family:Arial; margin:10px 40px;}
-/*-- 鐓х墖 --*/
+/*-- 照片 --*/
 .zp2{width:365px; padding:10px; border:1px solid #ccc;}
 .zp2_l{float:left; width:130px; margin-right:15px; text-align:center;}
 .zp_zj_bg{float:left; width:152px; height:109px; padding-top:8px; margin-right:15px; text-align:center; background:url(http://img.kaixin001.com.cn/i/zp_zj_bg.gif) no-repeat;}
@@ -826,7 +826,7 @@ a.wd12a{color:#999; text-decoration:none; font-family:Arial;}a.wd12a:hover{text-
 .zp_zs1{position:relative; text-align:center;}
 .zp_zs2{position:relative; width:730px; overflow-x:hidden; text-align:center;	overflow-y:hidden;margin:0 auto;}
 .zp_zs3{position:relative; width:1000px; overflow-x:hidden; overflow-y:hidden; text-align:center;}
-/*-- 娑堟伅 --*/
+/*-- 消息 --*/
 .hy_n{width:315px; margin-top:15px; border-top:1px solid #D8DFEA;}
 .hy_of{padding:2px 5px 0 2px; color:#8692A2; height:21px; background:#fff;}
 .hy_on{padding:2px 5px 0 2px; color:#8692A2; height:21px; background:#EEF0F4;}
@@ -835,7 +835,7 @@ a.wd12a{color:#999; text-decoration:none; font-family:Arial;}a.wd12a:hover{text-
 .wgbr_r{float:left; width:380px; padding:5px 15px; background:url(http://img.kaixin001.com.cn/i/wgbr_r.gif) left repeat-y;}
 .xx_yhxx{display:none; position:absolute; top:10px; left:0; border:1px solid #ccc; padding:5px; background:#fff; width:120px;}
 .xx_yhzt{border-bottom:2px solid #D8DFEA; color:#8692A2; margin-bottom:5px;}
-/*-- 棣栭〉 --*/
+/*-- 首页 --*/
 .sy_pr1{width:390px; padding:2px 10px; margin-bottom:2px; border-bottom:1px solid #D8DEEA; line-height:23px;}
 .sy_pr2{padding:2px 10px; color:#808080;}
 .sy_p_zt{color:#8690A5; font-size:10px; font-style:italic;}
@@ -848,7 +848,7 @@ a.wd12a{color:#999; text-decoration:none; font-family:Arial;}a.wd12a:hover{text-
 .dl_why2{height:55px; padding:7px 12px 0 25px; overflow:hidden; background:url(http://img.kaixin001.com.cn/i/dl_why2.gif) top center no-repeat;}
 .ta_wqfw{height:60px; padding:25px 0 0 75px; overflow:hidden; background:url(http://img.kaixin001.com.cn/i/ta_wqfw.gif) top center no-repeat; font-size:14px;}
 
-/*------------------------12鍙峰瓧鎸夐挳 START----------------------------*/
+/*------------------------12号字按钮 START----------------------------*/
 .gb1-12,.gb2-12{height:23px; color:#333; font-size:12px; background:#e5e5e5; padding:3px 5px; border-left:1px solid #fff; border-top:1px solid #fff; border-right:1px solid #6a6a6a; border-bottom:1px solid #6a6a6a; cursor:pointer;}
 .gb2-12{background:#ddd;}
 
@@ -857,10 +857,10 @@ a.wd12a{color:#999; text-decoration:none; font-family:Arial;}a.wd12a:hover{text-
 
 .rb1-12,.rb2-12{height:23px; color:#fff; font-size:12px; background:#D32C47; padding:3px 5px; border-left:1px solid #fff; border-top:1px solid #fff; border-right:1px solid #6a6a6a; border-bottom:1px solid #6a6a6a; cursor:pointer;}
 .rb2-12{background:#C71E3A;}
-/*------------------------12鍙峰瓧鎸夐挳 END----------------------------*/
+/*------------------------12号字按钮 END----------------------------*/
 
 
-/*-------------------------------------------  琛ュ厖 Start -------------------------------------------------------*/
+/*-------------------------------------------  补充 Start -------------------------------------------------------*/
 
 
 
@@ -881,7 +881,7 @@ a.wd12a{color:#999; text-decoration:none; font-family:Arial;}a.wd12a:hover{text-
 	clear:both; 
 	border-top:none; 
 	margin-top:0px;
-	}/*涓轰簡鍘绘帀楠岃瘉鐮佷笅闈㈢殑鐏扮嚎*/
+	}/*为了去掉验证码下面的灰线*/
 
 #touxiang {
 	margin-right:30px;
@@ -1049,8 +1049,32 @@ a.sl-msg:hover {
 .iv_nof{background:url(http://img.kaixin001.com.cn/i/inv/iv_nofbg.gif) no-repeat; width:517px; height:85px; padding:10px 18px;}
 .iv_nof ul{clear:both; padding:0px; margin-left:32px; *margin-top:-5px;!important;}
 .iv_nof li{list-style:none; background:url(http://img.kaixin001.com.cn/i/h_n_bg.gif) no-repeat left; padding:0 0 0 10px; margin:0px;}
-/*-- 灏鹃儴for鐏板簳绠�鍗曢〉 --*/
+/*-- 尾部for灰底简单页 --*/
 #b_gray{background:#efefef; padding:40px 0 40px 0; text-align:center; clear:both;}
 #b_gray .b1{color:#666; font-family:Arial; text-align:center;}
 #b_gray .b1 span{color:#ddd; padding:0 6px;}
 a.noline {text-decoration:none;}
+/*----------------------------------------------- 补充  End ------------------------------------------------- */	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

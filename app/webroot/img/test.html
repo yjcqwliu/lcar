@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<title>争车位 - 开心网</title> 
+<link href="http://img.kaixin001.com.cn/css/s.css" rel="stylesheet" type="text/css" /> 
+<script src="http://img.kaixin001.com.cn/js/head-10.js" language="JavaScript" type="text/javascript"></script> 
+<script src="http://img.kaixin001.com.cn/js/common-2.js" type="text/javascript"></script> 
+<script src="http://img.kaixin001.com.cn/js/prototype-1.4.0.js" language="JavaScript" type="text/javascript"></script> 
+<script src="http://img.kaixin001.com.cn/js/s.js" language="JavaScript" type="text/javascript"></script> 
+<script src="http://img.kaixin001.com.cn/js/cookie.js" type="text/javascript"></script> 
+<script src="http://img.kaixin001.com.cn/js/dialog-1.js" language="JavaScript" type="text/javascript"></script> 
+<script src="http://img.kaixin001.com.cn/js/app_friend.js" language="JavaScript" type="text/javascript"></script> 
+<script src="http://img.kaixin001.com.cn/js/swfobject.js" type="text/javascript"></script> 
+<script language="javascript">AC_FL_RunContent = 0;</script> 
+<script src="http://img.kaixin001.com.cn/js/AC_RunActiveContent.js" type="text/javascript"></script> 
+<link href="http://img.kaixin001.com.cn/css/park-3.css" rel="stylesheet" type="text/css" /> 
+<script language=javascript src="http://img.kaixin001.com.cn/js/friend_singlesuggest.js"></script> 
+<script language=javascript src="http://img.kaixin001.com.cn/js/parking-8.js"></script> 
+ 
+</head> 
+ 
+<body onload="javascript:if ('function' == typeof(_bodyonload)) { _bodyonload(event); };"
+ onunload="javascript:if ('function' == typeof(_bodyonunload)) { _bodyonunload(event); };"
+ onbeforeunload="javascript:if ('function' == typeof(_bodyonbeforeunload)) { _bodyonbeforeunload(event); };"> 
+ 
+<script language="JavaScript"> 
+outputHead();
+setTimeout(checkNewMsg, 20000);
+init();
+</script> 
+ 
+<script language="JavaScript"> 
+g_allapp_num=14;
+g_prevapp_num=20;
+ 
+g_app_num=20;
+g_appnum = 0;
+g_bappmore = false;
+document.writeln('<div id=head_applist>');
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/ico_zp.gif", "http://www.kaixin001.com/photo/albumlist.php", "照片", "1", "1");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/ico_rj.gif", "http://www.kaixin001.com/diary/", "日记", "2", "1");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/record/ico_jl2.gif", "http://www.kaixin001.com/app/app.php?aid=1018", "记录", "1018", "1");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/z/ico_dtyx1.gif", "http://www.kaixin001.com/dongta/", "动他一下", "1000", "0");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/gift/ico_lw_bg.gif", "http://www.kaixin001.com/gift/", "礼物", "1001", "1");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/music/ico_music_bg.gif", "http://www.kaixin001.com/app/app.php?aid=1006", "音乐", "1006", "1");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/hard_disk/ico_yp2.gif", "http://www.kaixin001.com/app/app.php?aid=1008", "网盘", "1008", "1");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/yuan/ico_match2.gif", "http://www.kaixin001.com/app/app.php?aid=1004", "姓名缘分", "1004", "0");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/prelife/ico_qs.gif", "http://www.kaixin001.com/app/app.php?aid=1030", "前世", "1030", "0");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i2/park/ico_park.gif", "http://www.kaixin001.com/app/app.php?aid=1040", "争车位", "1040", "0");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/slave/ico_mm.gif", "http://www.kaixin001.com/app/app.php?aid=1028", "朋友买卖", "1028", "0");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/betray/ico_hunwaiqing_bg.gif", "http://www.kaixin001.com/app/app.php?aid=1012", "婚外情", "1012", "0");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/impression/ico_yx.gif", "http://www.kaixin001.com/app/app.php?aid=1036", "朋友印象", "1036", "0");
+setApplistHiddenHead();
+outputApp("http://img.kaixin001.com.cn/i/ptest/ico_test.gif", "http://www.kaixin001.com/app/app.php?aid=1032", "测试", "1032", "1");
+setApplistHiddenTail();
+document.writeln('</div>');
+ 
+g_app_num=20;
+g_appnum = 0;
+g_bappmore = false;
+outputAppInfo();
+ 
+outputHead2();
+</script> 
+<link href="http://img.kaixin001.com.cn/css/park-3.css" rel="stylesheet" type="text/css" /> 
+<script language=javascript src="http://img.kaixin001.com.cn/js/friend_singlesuggest.js"></script> 
+<script language=javascript src="http://img.kaixin001.com.cn/js/parking-8.js"></script> 
+ 
+ 
+  <div class="m2 wr1"> 
+    <div id="r2_2"> 
+      <div id="r3"> 
+        <div class="l"><img src="http://img.kaixin001.com.cn/i2/park/ico_park.gif" align="absmiddle" /> 
+		<b class="f14">游戏：争车位</b> 
+		</div> 
+        <div class="r"><a href="javascript:window.history.back();" class="sl">&lt;&lt;返回上一页</a></div> 
+        <div class="c"></div> 
+      </div> 
+	  <div class="c"></div> 
+	  <div class="park_left"> 
+		 <div class="park_nav" style="margin-top:7px;"> 
+			<div class="park_navbg"> 
+				<h4 class="sy"><a href="/~parking/index.php" class="sl2">首页</a></h4>	
+			</div> 
+			<div class="park_navbg"> 
+				<h4 class="cs"><a href="/~parking/market.php" class="sl2">车市</a></h4>	
+			</div> 
+			<div class="park_navbg"> 
+				<h4 class="daoju"><a href="/~parking/mycard.php" class="sl2">道具</a></h4>	
+			</div> 
+			<div class="park_navbg"> 
+				<h4 class="ph"><a href="/~parking/rank.php" class="sl2">排行</a></h4> 
+			</div> 
+			<div class="park_navbg"> 
+				<h4 class="ll" style="margin-left:8px;padding-left:13px;"><A class=sl2 href="/~parking/myteam.php">拉力赛</A></h4> 
+			</div> 
+			<div class="park_navbg" style="margin-right:0px;"> 
+				<h4 class="help"><a href="/~parking/help.php" class="sl2">帮助</a></h4> 
+			</div> 
+			<div class="c"></div> 
+		 </div> 
+		 <a name=scene></a> 
+		 <div class="park_farea" style="padding-top:20px;"> 
+ 
+		 	
+<script language=javascript> 
+ 
+var v_userdata = {"error":"","config":{"money_minute":"10","money_max":7200},"user":{"vuid":"3639191","uid":"3639191","neighbor":0,"isfriend":3,"first_fee_parking":0,"first_free_parking":2,"real_name":"\u5218\u6b22","ta":"\u4ed6","logo50":"http:\/\/pic.kaixin001.com\/logo\/63\/91\/50_3639191_1.jpg","logo20":"http:\/\/pic.kaixin001.com\/logo\/63\/91\/20_3639191_1.jpg","avenue":"\u5927\u9053","cash":17603,"scene":"http:\/\/img.kaixin001.com.cn\/i2\/scenes\/bb3.jpg","sceneid":"2","showmoneyminute":0,"online2":1},"parking":[{"parkid":"16777217","car_uid":0,"carid":0,"ctime":1229960464,"car_real_name":"","car_logo20":"","car_isfriend":0,"car_logo_big":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/2_0_-16777215.gif","car_logo_small":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/1_0_-16777215.gif","car_logo_flash":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/1_0_-16777215.swf","car_police":null,"car_profit":5750,"car_trademark":"","car_trademarkname":"","car_price":"","car_name":""},{"parkid":"33554435","car_uid":"141434","carid":"5177347","ctime":1229960446,"car_real_name":"\u5218\u79c0\u79c0","car_logo20":"http:\/\/pic.kaixin001.com\/logo\/14\/14\/20_141434_15.jpg","car_isfriend":1,"car_logo_big":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/2_79_3-16711680.gif","car_logo_small":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/1_79_3-16711680.gif","car_logo_flash":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/1_79_3-16711680.swf","car_police":"0","car_profit":5750,"car_trademark":"http:\/\/img.kaixin001.com.cn\/i2\/park\/biekekaiyue0.gif","car_trademarkname":"\u522b\u514b\u65b0\u4e00\u4ee3\u541b\u5a01","car_price":"245900","car_name":"\u522b\u514b\u65b0\u4e00\u4ee3\u541b\u5a01"},{"parkid":"50397185","car_uid":0,"carid":0,"ctime":1227602429,"car_real_name":"","car_logo20":"","car_isfriend":0,"car_logo_big":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/2_0_-16777215.gif","car_logo_small":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/1_0_-16777215.gif","car_logo_flash":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/1_0_-16777215.swf","car_police":null,"car_profit":7200,"car_trademark":"","car_trademarkname":"","car_price":"","car_name":""},{"parkid":"67108868","car_uid":"141434","carid":"5177344","ctime":1229960452,"car_real_name":"\u5218\u79c0\u79c0","car_logo20":"http:\/\/pic.kaixin001.com\/logo\/14\/14\/20_141434_15.jpg","car_isfriend":1,"car_logo_big":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/2_79_3-16777215.gif","car_logo_small":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/1_79_3-16777215.gif","car_logo_flash":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/1_79_3-16777215.swf","car_police":"0","car_profit":5750,"car_trademark":"http:\/\/img.kaixin001.com.cn\/i2\/park\/biekekaiyue0.gif","car_trademarkname":"\u522b\u514b\u65b0\u4e00\u4ee3\u541b\u5a01","car_price":"245900","car_name":"\u522b\u514b\u65b0\u4e00\u4ee3\u541b\u5a01"}],"car":[{"carid":"65539","price":"16000","neighbor":"0","park_uid":0,"parkid":0,"ctime":1228480955,"car_name":"\u4e8c\u624b\u5965\u62d3","car_logo_big":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/2_1_3-16711680.gif","car_logo_small":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/1_1_3-16711680.gif","car_logo_flash":"http:\/\/pic.kaixin001.com\/pic\/car\/0\/0\/1_1_3-16711680.swf","car_trademark":"http:\/\/img.kaixin001.com.cn\/i2\/park\/logo_alto.gif","car_trademarkname":"\u5965\u62d3","car_police":"0","park_real_name":"","park_logo20":null,"park_profit":0,"park_moneyminute":null}]};
+var v_frienddata = [{"uid":"105949","real_name":"\u8c22\u5218\u4fca","ta":"\u4ed6","full":"0","scenemoney":"10","scenename":"\u5927\u6865","neighbor":0,"online":0},{"uid":"2652056","real_name":"\u949f\u58eb\u6770","ta":"\u4ed6","full":"2","scenemoney":"10","scenename":"\u5927\u9053","neighbor":0,"online":0},{"uid":"141434","real_name":"\u5218\u79c0\u79c0","ta":"\u5979","full":"1","scenemoney":"11","scenename":"\u6728\u5c4b","neighbor":0,"online":0},{"uid":"5985824","real_name":"\u502a\u6843","ta":"\u4ed6","full":"0","scenemoney":"10","scenename":"\u82b1\u56ed","neighbor":0,"online":0},{"uid":"7957107","real_name":"\u9648\u5e05\u5e05","ta":"\u4ed6","full":"0","scenemoney":"10","scenename":"\u4e50\u56ed","neighbor":0,"online":0},{"uid":"4064924","real_name":"\u848b\u7ef4\u73b2","ta":"\u5979","full":"1","scenemoney":"10","scenename":"\u51c9\u4ead","neighbor":0,"online":0}];
+ 
+var today = new Date();
+v_userdata["localtime"] = parseInt(today.getTime() / 1000);
+ 
+//document.writeln('<div id="flash_div" style="left:0;top:0;">flash</div>');
+//var oswf = new SWFObject("/i2/parking.1.3.swf", "parking_swf", "605", "210", "8", "#ffffff", true);
+//oswf.addParam("allowscriptaccess", "always");
+//oswf.addParam("wmode", "opaque");
+//oswf.addParam("menu", "false");
+//oswf.addVariable("autoplay","0");
+//oswf.write("flash_div");
+ 
+function debug(str)
+{
+	alert(str);
+}
+</script> 
+<script language="javascript"> 
+	if (AC_FL_RunContent == 0) {
+		alert("此页需要 AC_RunActiveContent.js");
+	} else {
+		AC_FL_RunContent(
+			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+			'width', '605',
+			'height', '210',
+			'src', 'parking.1.3',
+			'quality', 'high',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'align', 'middle',
+			'play', 'true',
+			'loop', 'true',
+			'scale', 'showall',
+			'wmode', 'window',
+			'devicefont', 'false',
+			'id', 'parking_swf',
+			'bgcolor', '#ffffff',
+			'name', 'parking_swf',
+			'menu', 'true',
+			'allowFullScreen', 'false',
+			'allowScriptAccess','sameDomain',
+			'wmode', 'transparent',
+			'movie', 'parking.1.3',
+			'salign', ''
+			); //end AC code
+	}
+</script> 
+<noscript> 
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="605" height="210" id="parking_swf" align="middle"> 
+	<param name="allowScriptAccess" value="always" /> 
+	<param name="allowFullScreen" value="false" /> 
+	<param name="movie" value="http://www.kaixin001.com/i2/parking.1.3.swf" /> 
+	<param name="quality" value="high" /> 
+	<param name="bgcolor" value="#ffffff" /> 
+	<param name="wmode" value="transparent" /> 
+	<embed src="http://www.kaixin001.com/i2/parking.1.3.swf" quality="high" bgcolor="#ffffff" width="605" height="210" name="parking_swf" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> 
+	</object> 
+</noscript> 
+		 </div> 
+		 
+		 <div class="mt10"> 
+			<div class="w100 l">&nbsp;<a href="javascript:gotoPrev();"><img src="http://img.kaixin001.com.cn/i2/park/back.gif" alt="去左邻的停车位" /></a></div> 
+			<div id=returnmystreet_show class="l tac" style="width:400px; padding-top:5px;display:none;"> 
+				<span id=touserspan></span> <span id=splitspan  >┊</span> <a href="javascript:gotoMyself();" class="sl2">返回我的停车位</a> 
+			</div> 
+			<div id=returnmystreet_hide class="l tac" style="width:400px; padding-top:5px;"> 
+			</div> 
+			<div class="w100 l tar"><a href="javascript:gotoNext();"><img src="http://img.kaixin001.com.cn/i2/park/next.gif" alt="去右舍的停车位" /></a></div> 
+			<div class="c" style="margin-top:0px;"></div> 
+			<!--<div class="tac f12" style="font-weight:normal;display:block;"><a href="javascript:notice();" style="color:#D01E3B;" class="sl2">新BMW 320i隆重上市</a></div>--> 
+		 
+		 </div> 
+		 
+		 <h3 class="wdqc" style="margin-top:5px;">我的汽车</h3> 
+		 <div id=mycar></div> 
+		 <script language=javascript> 
+		 setMycar();
+		 </script> 
+		 <a name=record></a> 
+		 <div class="bar_menu mt30" style="padding-top:10px;"> 
+		 	<div class="flw5" >&nbsp;</div> 
+			<script language=javascript> 
+			var v_flag = "2";
+			if (v_flag == "0")
+			{
+				document.writeln('<div class="bar_on l f13"><div style="padding-top:2px;" class="tac">我的贴条记录</div></div>');
+			}
+			else
+			{
+				document.writeln('<div class="bar_off l sl f13"><div style="padding-top:2px;" class="tac" onclick="javascript:window.location=\'/~parking/index.php#record\';">我的贴条记录</div></div>');
+			}
+			</script> 
+			<div class="flw5" >&nbsp;</div> 
+			<script language=javascript> 
+			if (v_flag == "2")
+			{
+				document.writeln('<div class="bar_on l f13"><div style="padding-top:2px;" class="tac">我的车位近况</div></div>');
+			}
+			else
+			{
+				document.writeln('<div class="bar_off l sl f13"><div style="padding-top:2px;" class="tac" onclick="javascript:window.location=\'/~parking/index.php?flag=2#record\';">我的车位近况</div></div>');
+			}
+			</script> 
+			<div class="flw5" >&nbsp;</div> 
+			<script language=javascript> 
+			if (v_flag == "-1")
+			{
+				document.writeln('<div class="bar_on l f13"><div style="padding-top:2px;" class="tac">路况大厅</div></div>');
+			}
+			else
+			{
+				document.writeln('<div class="bar_off l sl f13"><div style="padding-top:2px;" class="tac" onclick="javascript:window.location=\'/~parking/index.php?flag=-1#record\';">路况大厅</div></div>');
+			}
+			</script> 
+			<div class="c"></div> 
+		</div> 
+	<div style="height:10px;">&nbsp;</div> 
+ 
+	  </div> 
+	  
+	  <div class="park_right"> 
+	  	<div> 
+			<div class="l"><div class="l50_s" style="padding-left:0;*padding-left:2px;"> 
+			<a href="/home/?uid=3639191"><script language=javascript> 
+if (!v_userdata["error"].length)
+{
+	v_logo = '<img src="' + v_userdata["user"]["logo50"] + '">';
+	document.writeln(v_logo);
+}
+			</script></a></div></div> 
+			<div class="l"> 
+				<span class="c9">我的现金：</span> 
+				<div id=mycash class="wdxj"></div> 
+<script language=javascript> 
+setCash();
+</script> 
+			</div> 
+			<div class="c"></div> 
+		</div> 
+		
+		<h3 class="qhytcw">去好友的停车位</h3> 
+		<div class="qhytcw_area"> 
+				<div class="l mt10" style="margin-left:20px !important;margin-left:10px;"> 
+					<div class="it_s" style="width:145px;"> 
+						<div class="it1"> 
+						
+							<div id="superinput" style="cursor:text;height:20px;float:left; width:140px;" onclick="fs2_superOnclick()"> 
+							&nbsp;
+							</div> 
+							
+							<div class="c"></div> 
+						
+						</div> 
+					</div> 
+				</div> 
+				
+				<div class="l" style="padding:3px 2px 0px 0px; position:relative;margin:13px 2px 0 0;"> 
+					<div id="xx_sh" onclick="fs2_viewAllfriend();"><img src="http://img.kaixin001.com.cn/i/xx_xx1.gif" class="cp" onmouseover="this.src='http://img.kaixin001.com.cn/i/xx_xx2.gif';" onmouseout="this.src='http://img.kaixin001.com.cn/i/xx_xx1.gif';" alt="选择好友" /></div> 
+					<div class="fsg_nr" style="width:310px;" id="fsg_nr"> 
+					<div class="sgt_on" style="width:300px;">请选择好友</div> 
+					<div id="allfriend"  style="width:300px;height:100px; overflow:scroll; overflow-x:hidden;"></div> 
+					<div class="tac p5"><div class="gbs1"><input type="button" id="btn_qd" value="确定" title="确定" class="gb1-12" onmouseover="this.className='gb2-12';" onmouseout="this.className='gb1-12';" onclick="fs2_selectFriend();" /></div><div class="c"></div></div> 
+					</div> 
+				</div> 
+ 
+				<div class="c"></div> 
+			<div class="hytc_area"> 
+<script language=javascript> 
+var len = v_frienddata.length;
+v_fhtml = "";
+for (var i=0; i<len; i++) 
+{ 
+	v_fhtml += '<ul class="hytc">'; 
+	if (parseInt(v_frienddata[i]["neighbor"])) 
+	{ 
+		v_fhtml += '<li class="w60"><a href="javascript:gotoneighbor(' + v_frienddata[i]["uid"] + ');" class="sl" title="' + v_frienddata[i]["real_name"] + '">' + v_frienddata[i]["real_name"] + '</a></li>';
+		v_fhtml += '<li class="w75">(' + v_frienddata[i]["ta"] + '是邻居)</li>';
+	}
+	else
+	{
+		v_fhtml += '<li style="width:55px;"><a href="javascript:gotouser(' + v_frienddata[i]["uid"] + ');" class="sl" title="' + v_frienddata[i]["real_name"] + '">' + v_frienddata[i]["real_name"] + '</a></li>';
+		v_fhtml += '<li style="width:60px;text-align:right;">';
+		if (parseInt(v_frienddata[i]["scenemoney"]) > 10)
+		{
+			v_fhtml += '<img src="http://img.kaixin001.com.cn/i2/park/scene/' + v_frienddata[i]["scenemoney"] + '.gif" title="' + v_frienddata[i]["scenename"] + '场景，停车每分钟' + v_frienddata[i]["scenemoney"] + '元"> ';
+		}
+		v_fhtml += '<A HREF="javascript:showUserCar(' + v_frienddata[i]["uid"] + ', \'' + v_frienddata[i]["ta"] + '\');"><img src="http://img.kaixin001.com.cn/i2/park/car.gif" title="' + v_frienddata[i]["ta"] + '的汽车" align="absmiddle" /></A> <A HREF="/home/?uid=' + v_frienddata[i]["uid"] + '"><img src="http://img.kaixin001.com.cn/i2/park/home.gif" title="' + v_frienddata[i]["ta"] + '的开心网首页" align="absmiddle" /></A></li>';
+	}
+	v_fhtml += '<li style="width:20px;"> '+(v_frienddata[i]["online"]=='1'?'<img src="http://img.kaixin001.com.cn/i/u_zx1.gif" alt="在线" align="absmiddle"/>' :'&nbsp;')+ '</li>';
+	if (parseInt(v_frienddata[i]["full"]) == 1)
+	{
+		v_fhtml += '<li style="float:right;"><img src="http://img.kaixin001.com.cn/i2/park/man.gif" alt="满" align="absmiddle" /> </li>';
+	}
+	else if (parseInt(v_frienddata[i]["full"]) == 2)
+	{
+		v_fhtml += '<li style="float:right;"><img src="http://img.kaixin001.com.cn/i2/park/half_full.gif" alt="私家车位已满" align="absmiddle" /> </li>';
+	}
+	else
+	{
+		v_fhtml += '<li> </li>';
+	}
+	v_fhtml += '</ul>';
+}
+document.writeln(v_fhtml);
+</script> 
+			</div> 
+		</div> 
+		<div class="mt5 tar"><a href="javascript:if(confirm('每邀请一位朋友加入开心网，奖励6000元&nbsp;&nbsp;&nbsp;\n\n【请注意】\n\n&nbsp;&nbsp;&nbsp;&nbsp;1、每天最多奖励 6 万元\n\n&nbsp;&nbsp;&nbsp;&nbsp;2、本组件最多奖励 18 万元\n\n点击“确定”开始邀请')){window.location = '/friend/invite.php'}" class="sl">邀请朋友加入，奖励6000元</a>&nbsp;&nbsp;</div> 
+       </div> 
+       <div class="c"></div> 
+       <div class="h100"></div> 
+	   <div class="h100"></div> 
+    </div> 
+  </div> 
+ 
+ 
+<style> 
+   .ts3{height:25px; background:#355582; border-bottom:1px solid #565656; font-weight:bold;}
+</style> 
+ 
+ 
+ 
+<script language=javascript> 
+ 
+var fs2_pars = "f1";
+var g_verify = "3639191_1040_3639191_1229994989_c961d98b059be344e6dc150e3c2a37bb";
+var g_first = parseInt("0");
+var g_touid = parseInt("0");
+var g_checkswf = 0;
+		 	
+ 
+ 
+function checkSwf()
+{
+	if ("function" == typeof(document.parking_swf.setData))
+	{
+		clearInterval(g_checkswf);
+		if (g_touid)
+		{
+			gotouser(g_touid);
+		}
+		else
+		{
+			gotoMyself();
+		}
+	}
+}
+ 
+ 
+var  gf773  =  "07ccb047a60c";
+var  acc3 = "cbaktr0f1";
+function  acc()
+{
+	var acc = gf773.substr(3,3) + d0bd2.substr(5,5) + 'abc';
+	return acc;
+}
+ 
+var  d0bd2  =  "79afd54ce68b";
+ 
+ 
+function _bodyonload()
+{
+	if (g_first)
+	{
+		help_step1();
+	}
+ 
+	g_checkswf = setInterval(checkSwf, 1000);
+	checkSwf();
+}
+ 
+function fs2_onrefresh(r)
+{
+	gotouser(r.uid);
+}
+ 
+function notice()
+{
+	openAlertBlue("<div style='margin:15px 10px;'>"
++ "<div class=l style='width:70px;padding-top:5px;padding-right:10px;'><a href='/~parking/market.php' target=_top><img src='http://img.kaixin001.com.cn/i2/park/ad_2.gif'  title='新BMW 320i' style='cursor:pointer;' width='95px' height='57px'/></a></div>"
++ "<div class='l' style='padding:5px 15px 0 30px;width:20em;'><div class='f14 mb10' style='text-indent:2em;line-height:25px;'>新BMW 320i上市，拉力赛车速130km/h；广告期间购买即送大剧院场景卡。（每人限送一张）</div>"
++ "<div class=f14 style='text-indent:2em;padding-top:10px;'><a href='/~parking/market.php' class='sl' target=_top>去车市看看</a></div>"
++ "</div>"
++ "<div class=c></div>"
+ 
++ "</div>",  "关闭", 445, 250, "新车上市");
+}
+</script> 
+ 
+<script language=javascript> 
+outputTail();
+</script> 
+</body> 
+</html> 

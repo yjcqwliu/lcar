@@ -7,10 +7,13 @@
 	</title>
 	<SCRIPT language="javascript">AC_FL_RunContent = 0;</SCRIPT>
 	<?php
-		echo $html->css(array('global','header','s'));
+		echo $html->css(array('global','header','s','park-3'));
+		echo $javascript->link(array('swfobject','head-10','common-2','prototype-1.4.0','s','cookie','dialog-1','app_friend','swfobject','AC_RunActiveContent','parking-8','friend_singlesuggest'));
 	?>
 </head>
-<body>
+<body onload="javascript:if ('function' == typeof(_bodyonload)) { _bodyonload(event); };"
+ onunload="javascript:if ('function' == typeof(_bodyonunload)) { _bodyonunload(event); };"
+ onbeforeunload="javascript:if ('function' == typeof(_bodyonbeforeunload)) { _bodyonbeforeunload(event); };"> 
 <div id="header">
 <div id="TextNav"><!--页面导航 开始-->
 <h1>
@@ -33,9 +36,43 @@
 <div class="c"></div>	
 			<?php $session->flash(); ?>
 
-			<?php echo $content_for_layout; ?>
+			
 
-	<div class="c"></div>	
+	<DIV class="m2 wr1">
+    <DIV id="r2_2">
+      <DIV id="r3">
+        <DIV class="l"><?=$html->image("ico_park.gif",array("align"=>"absmiddle"))?>
+		<B class="f14">游戏：争车位</B>
+		</DIV>
+        <DIV class="r"><A href="javascript:window.history.back();" class="sl">&lt;&lt;返回上一页</A></DIV>
+        <DIV class="c"></DIV>
+      </DIV>
+	  <DIV class="c"></DIV>
+	  <DIV class="park_nav" style="margin-top:7px;">
+			<DIV class="park_navbg">
+				<H4 class="sy"><A href="me" class="sl2">首页</A></H4>	
+			</DIV>
+			<DIV class="park_navbg">
+				<H4 class="cs"><A href="carshop" class="sl2">车市</A></H4>	
+			</DIV>
+			<DIV class="park_navbg">
+				<H4 class="daoju"><A href="#" class="sl2">道具</A></H4>	
+			</DIV>
+			<DIV class="park_navbg">
+				<H4 class="ph"><A href="#" class="sl2">排行</A></H4>
+			</DIV>
+			<!--DIV class="park_navbg">
+				<H4 class="ll" style="margin-left:8px;padding-left:13px;"><A class="sl2" href="#">拉力赛</A></H4>
+			</DIV-->
+			<DIV class="park_navbg" style="margin-right:0px;">
+				<H4 class="help"><A href="help" class="sl2">帮助</A></H4>
+			</DIV>
+			<DIV class="c"></DIV>
+		 </DIV>	
+		 <?php echo $content_for_layout; ?>
+	</div>
+	</div>
+	<DIV class="c"></DIV>
 	<?php echo $cakeDebug; ?>
 </body>
 </html>

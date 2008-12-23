@@ -37,16 +37,30 @@ class AppController extends Controller
 	{
 		if(isset($user["userinfo"]['user_gender']) && $user["userinfo"]['user_gender'] == 2)
 		{
-			$this->set('gender',"她");
+			return "她";
 		}
 		else
 		{
-			$this->set('gender',"他");
+			return "他";
 		} 
 	} 
 	function link_to_home($user)
 	{
 		return "<a href='friend?id=" . $user["User"]["uid"] . "'>" . $user["userinfo"]["nickname"] . "</a>";
 	}
+	function show_userpic($pic_data=null, $size=0) {
+		$this->llllllll = $pic_data;
+		if(!empty($pic_data))
+		{
+			$pic = split("\|",$pic_data);
+			if(isset($pic[$size]))
+				return $pic[$size];
+			else
+				return $pic[0];
+		}
+		else
+			return "../img/noheadpic" . $size .".gif";
+    }
+	
 }  
 ?>  
