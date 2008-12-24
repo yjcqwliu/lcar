@@ -96,8 +96,8 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
+		'password' => '',
+		'database' => '',
 		'prefix' => '',
 	);
 }
